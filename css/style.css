@@ -11,10 +11,12 @@
 --color-bgr-dark: #2F303A;
 }
 ._null{
+    list-style: none;
     text-decoration: none;
     color: inherit;
     font-style: normal;
-    list-style: none;
+    outline:none;
+    
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -26,4 +28,33 @@ body {
     background-color: var(--color-bgr-light);
 }
 
-
+.header{
+    background-color: var(--color-white);
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--color-black);
+    font-weight: 700;
+}
+.logo span {
+    color: var(--color-accent);
+}
+.navigation,
+.contact {
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+    font-weight: 500;
+}
+.navigation__item {
+    color:var(--color-bold);
+}
+.navigation__item a:focus,
+.navigation__item a:hover,
+.contact__email_active a:hover,
+.contact__email_active a:focus,
+.contact__tel_active a:hover,
+.contact__tel_active a:focus {
+    color: var(--color-accent);
+}
