@@ -1,0 +1,29 @@
+:root {
+--color-accent: #2196F3;
+--color-bold: #212121;
+--color-main: #757575;
+
+--color-black: #000000;
+--color-white: #ffffff;
+
+--color-bgr-light: #F5F5F5;
+--color-bgr-grey: #F5F4FA;
+--color-bgr-dark: #2F303A;
+}
+._null{
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+    list-style: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+
+    color: var(--color-main);
+    background-color: var(--color-bgr-light);
+}
+
+
