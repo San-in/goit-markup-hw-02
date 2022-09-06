@@ -24,6 +24,7 @@ input,
 button,
 textarea {
     font-family: inherit;
+    font-size: inherit;
   }
 /* * {
 padding: 0;
@@ -65,14 +66,15 @@ body {
 }
 
 
-.logo p {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--color-black);
     font-weight: 700;
 }
-
+.header__logo p {
+    color: var(--color-black);
+}
 ._active a {
     color: var(--color-accent);
 }
@@ -158,15 +160,15 @@ body {
     background-color: var(--color-bgr-dark);
     color: var(--color-white);
 }
+.footer__logo {
+    color: var(--color-white);
+}
 .footer__contact a {
     opacity: 0.6;
 }
 
 /* Портфоліо */
 
-.filter__btn {
-
-}
 
 .filter__btn:hover {
     color: var(--color-white);
