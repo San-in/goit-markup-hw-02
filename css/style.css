@@ -179,3 +179,15 @@ body {
     background-color: var(--color-accent);
     border: none;
 }
+
+.items-portfolio__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--color-bold);
+}
+.items-portfolio__category {
+    font-size: 16px;
+    line-height: 1.88;
+}
