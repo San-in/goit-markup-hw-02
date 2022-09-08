@@ -163,8 +163,12 @@ body {
 .footer__logo {
     color: var(--color-white);
 }
-.footer__contact a {
+.footer__contact li:not(:first-of-type) {
     opacity: 0.6;
+}
+.contact__address {
+    color: #ffffff;
+    line-height: 1.71;
 }
 
 /* Портфоліо */
