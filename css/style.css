@@ -11,8 +11,8 @@ h6 {
   }
 a, 
 a:visited {
-text-decoration: none;
 color: inherit;
+text-decoration: none;
 }
 a:hover {
 text-decoration: none;
@@ -39,6 +39,7 @@ address {
     font-style: normal;
 }
 
+
 :root {
     --color-accent: #2196F3;
     --color-bold: #212121;
@@ -51,17 +52,14 @@ address {
     --color-bgr-dark: #2F303A;
     }
 
-
-
-
         
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
-
     color: var(--color-main);
+    
     background-color: var(--color-white);
 }
 
@@ -84,19 +82,21 @@ body {
 }
 .navigation,
 .contact {
-    letter-spacing: 0.02em;
     line-height: 1.14;
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 .navigation__item {
     color:var(--color-bold);
 }
 .navigation__item a:focus,
 .navigation__item a:hover,
-.contact__email_active a:hover,
-.contact__email_active a:focus,
-.contact__tel_active a:hover,
-.contact__tel_active a:focus {
+.contact__email a:hover,
+.contact__email a:focus,
+.contact__tel a:hover,
+.contact__tel a:focus,
+.contact__address a:hover,
+.contact__address a:focus {
     color: var(--color-accent);
 }
 .section-hero {
@@ -121,13 +121,13 @@ body {
 .btn {
     color: var(--color-bold);
     background-color: var(--color-bgr-grey);
-    cursor: pointer;
     border: none;
+    cursor: pointer;
 }
 .section-hero__btn {
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    font-weight: 700;
     letter-spacing: 0.06em;
 }
 
@@ -138,8 +138,8 @@ body {
 }
 
 .subtitle {
-    font-weight: 700;
     line-height: 1.14;
+    font-weight: 700;
     text-transform: uppercase;
     color: var(--color-bold);
 }
@@ -157,8 +157,8 @@ body {
 }
 
 .footer {
-    background-color: var(--color-bgr-dark);
     color: var(--color-white);
+    background-color: var(--color-bgr-dark);
 }
 .footer__logo {
     color: var(--color-white);
@@ -167,8 +167,8 @@ body {
     opacity: 0.6;
 }
 .contact__address {
-    color: #ffffff;
     line-height: 1.71;
+    color: var(--color-white);
 }
 
 /* Портфоліо */
@@ -185,9 +185,9 @@ body {
 }
 
 .items-portfolio__title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    font-weight: 700;
     letter-spacing: 0.06em;
     color: var(--color-bold);
 }
