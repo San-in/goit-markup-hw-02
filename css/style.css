@@ -71,14 +71,11 @@ body {
   color: var(--color-accent);
 }
 
-.title {
+.section-title {
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
   color: var(--color-bold);
-}
-.main {
-  background-color: var(--color-bgr-lhgt-grey);
 }
 
 /* Header */
@@ -176,14 +173,6 @@ body {
 
 /* Portfolio */
 
-.portfolio {
-}
-.portfolio-title {
-}
-.portfolio-filter {
-}
-.filter-item {
-}
 .filter-btn {
   font-size: 16px;
   line-height: calc(26 / 16);
@@ -198,12 +187,6 @@ body {
   background-color: var(--color-accent);
 }
 
-.portfolio-list {
-}
-.portfolio-item {
-}
-.portfolio-img {
-}
 .portfolio-list-title {
   font-size: 18px;
   line-height: 2;
@@ -224,4 +207,8 @@ body {
 }
 .link-inherit {
   color: inherit;
+}
+.active-btn {
+  color: var(--color-white);
+  background-color: var(--color-accent);
 }
